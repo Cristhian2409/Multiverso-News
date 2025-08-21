@@ -3,56 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link pra Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Capital Hoje</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo do site" />
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Renda Fixa</a></li>
-                <li><a href="#about">Renda Variável</a></li>
-                <li><a href="#calculos">Calculadora</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="news-featured">
-            <div id="main-news">
-                <h1>Vale a pena investir no BBAS3 ?</h1>
-                <p>
-                    BBAS3 enfrenta queda nos lucros, corte de dividendos e alta na inadimplência do agronegócio, levando investidores a reavaliar se é hora de manter ou vender a ação.
-                </p>
+    <div class="wrapper wrapper_header">
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo do site" />
             </div>
-        </section>
-        <section id="news-secondary">
-            <h2>
-                Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026
-            </h2>
-        </section>
-        <div class="news-cards">
-            <article class="news-card">
-                <img src="" alt="">
-                <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
-                <p>15 de Agosto de 2025</p>
-            </article>
-            <article class="news-card">
-                <img src="" alt="">
-                <h3>BTLG11 anuncia novo pagamento de dividendos; veja o valor</h3>
-                <p>15 de Agosto de 2025</p>
-            </article>
-            <article class="news-card">
-                <img src="" alt="">
-                <h3>Renda Fixa no Brasil: Rentabilidade Atrativa e Crescimento de Investidores em Agosto de 2025</h3>
-                <p>15 de Agosto de 2025</p>
-            </article>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
-    </footer>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Renda Fixa</a></li>
+                    <li><a href="#about">Renda Variável</a></li>
+                    <li><a href="#calculos">Calculadora</a></li>
+                    <li><a href="#contact">Contato</a></li> 
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="wrapper wrapper_main">
+        <main>
+            <section id="news-featured">
+                <span>Destaque</span>
+                <div id="container-news">
+                    <div id="main-news">
+                        <img src="img/fiis.webp" alt="">
+                        <h1 class="news-title">
+                            Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026
+                        </h1>
+                        <p class="news-description">
+                            Investidores atentos encontram nos fundos imobiliários de tijolo uma chance única de adquirir ativos descontados, com projeções de valorização e maior atratividade no médio prazo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="news-secondary">
+                <img src="img/fiis.webp" alt="">
+                <h2>
+                    Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026
+                </h2>
+            </section>
+            <div class="news-cards">
+                <article class="news-card">
+                    <img src="img/alexandre.webp" alt="">
+                    <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
+                    <p>15 de Agosto de 2025</p>
+                </article>
+                <article class="news-card">
+                    <img src="img/btlg11.webp" alt="">
+                    <h3>BTLG11 anuncia novo pagamento de dividendos; veja o valor</h3>
+                    <p>15 de Agosto de 2025</p>
+                </article>
+                <article class="news-card">
+                    <img src="img/renda-fixa.webp" alt="">
+                    <h3>Renda Fixa no Brasil: Rentabilidade Atrativa e Crescimento de Investidores em Agosto de 2025</h3>
+                    <p>15 de Agosto de 2025</p>
+                </article>
+            </div>
+        </main>
+    </div>
+    
+    <div class="wrapper wrapper_footer">
+        <footer>
+            <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    
 </body>
 </html>

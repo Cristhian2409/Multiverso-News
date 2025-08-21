@@ -1,0 +1,130 @@
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --menu-fundo: blue;
+    --font-size-normal: 1em;
+    --font-family: Montserrat;
+}
+
+body{
+    font-size: 62.5%; /* 62.5% de 16px = 10px */
+    font-family: var(--font-family);
+}
+
+/*header*/
+.wrapper_header{
+    background-color: aqua;
+}
+
+header{
+    background-color: var(--menu-fundo);
+    padding: 1.5em 7em; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 6em;
+    width: auto;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    font-size: 1.6em;
+    list-style: none;
+}
+.menu ul li a{
+    font-size: var(--font-size-normal);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: .8em 1em;
+    /* transition: .5s; */
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 255, 255, 0.642);
+    color: black;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+
+/*main*/
+.wrapper_main{
+    background-color:rgb(0, 110, 255);
+}
+h1{
+    font-size: 3em;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 3em;
+    line-height: 1.5;
+}
+h3{
+    font-size: 2em;
+    line-height: 1.5;
+}
+p{
+    font-size: 1.6em;
+    line-height: 1.5;
+}
+
+#news-featured{
+    background-color: aqua;
+    padding: 0 7em;
+}
+span{
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 1em 0;
+    display: block;
+}
+#container-news{
+    display: flex;
+}
+#main-news{
+    position: relative;
+}
+
+#main-news img{
+    width: 75%;
+    height: 50%;
+    border-radius: 10px;
+}
+#main-news .news-title{
+    width: 50%;
+    display: block;
+    position: absolute;
+
+}
+#main-news .news-description{
+    width: 70%;
+}
+
+/*footer*/
+.wrapper_footer{
+    background-color: cadetblue;
+}
