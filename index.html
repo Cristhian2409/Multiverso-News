@@ -21,7 +21,7 @@
             <nav class="menu">
                 <ul>
                     <li><a href="#home">Renda Fixa</a></li>
-                    <li><a href="#about">Renda Variável</a></li>
+                    <li><a href="#about">Renda Variável</a></li> 
                     <li><a href="#calculos">Calculadora</a></li>
                     <li><a href="#contact">Contato</a></li> 
                 </ul>
@@ -31,12 +31,12 @@
 
     <div class="wrapper wrapper_main">
         <main>
-            <section id="news-featured">
-                <span>Destaque</span>
-                <div id="container-news">
-                    <div id="main-news">
+            <section id="wrapper-news-principal">
+                <span class="topicos">Destaque</span>
+                <div id="main-news">
+                    <div id="container-news-principal">
                         <img src="img/fiis.webp" alt="">
-                        <div class="content-news">
+                        <div class="content-news-principal">
                             <h1>
                                 Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026
                             </h1>
@@ -45,41 +45,112 @@
                             </p>
                         </div>
                     </div>
+                    <div id="container-news-secondary">
+                        <div class="news-top">
+                            <img src="img/banco1.webp" alt="">
+                            <div class="content-secondary-news content-one">
+                                <h2>
+                                    Juros altos e inadimplência elevam risco no crédito ao consumidor — atenção redobrada para famílias e bancos
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="news-top">
+                            <img src="img/banco1.webp" alt="">
+                            <div class="content-secondary-news content-two">
+                                <h2>
+                                    Mercado Financeiro Brasileiro Atrai Investimentos Estrangeiros, Mesmo com Desafios. Desenrole mais está noticia
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section id="news-secondary">
+            <section id="wrapper-other-news">
                 <div>
-                    <span>Outras Notícias</span>
+                    <span class="topicos">Outras Notícias</span>
                 </div>
-                <div class="news-container">
-                    <div class="news-container-header">
+                <div class="other-news-container">
+                    <div class="other-news-top">
                         <img src="img/banco2.webp" alt="">
-                        <div class="content-news-header">
+                        <div class="other-news-content">
+                            <h2>
+                                Bancos Brasileiros Enfrentam Dilema Jurídico com Sanções dos EUA a Moraes
+                            </h2>
+                            <p>
+                                Sanções a Moraes: Bancos divididos entre sanções dos EUA e decisões do STF.                            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="other-news-top">
+                        <img src="img/banco2.webp" alt="">
+                        <div class="other-news-content">
+                            <h2>
+                                Bancos Brasileiros Enfrentam Dilema Jurídico com Sanções dos EUA a Moraes
+                            </h2>
+                            <p>
+                                Sanções a Moraes: Bancos divididos entre sanções dos EUA e decisões do STF.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="other-news-top">
+                        <img src="img/banco2.webp" alt="">
+                        <div class="other-news-content">
                             <h2>
                                 Investidores divididos: ainda compensa apostar na BBAS3?
                             </h2>
                             <p>
-                                Com lucros pressionados, menor distribuição de dividendos e desafios no agronegócio, BBAS3 levanta dúvidas entre investidores sobre manter ou vender a ação.
+                                BBAS3: Lucros menores e dividendos reduzidos geram dúvidas sobre manter ações do Banco do Brasil.
                             </p>
                         </div>
                     </div>
-                    <div class="news-cards">
-                        <article class="news-card">
-                            <img src="img/alexandre.webp" alt="">
-                            <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
-                            <p>15 de Agosto de 2025</p>
-                        </article>
-                        <article class="news-card">
-                            <img src="img/btlg11.webp" alt="">
-                            <h3>BTLG11 anuncia novo pagamento de dividendos; veja o valor</h3>
-                            <p>15 de Agosto de 2025</p>
-                        </article>
-                        <article class="news-card">
-                            <img src="img/renda-fixa.webp" alt="">
-                            <h3>Renda Fixa no Brasil: Rentabilidade Atrativa e Crescimento de Investidores em Agosto de 2025</h3>
-                            <p>15 de Agosto de 2025</p>
-                        </article>
+                    <div class="other-news-top">
+                        <img src="img/banco2.webp" alt="">
+                        <div class="other-news-content">
+                            <h2>
+                                Investidores divididos: ainda compensa apostar na BBAS3?
+                            </h2>
+                            <p>
+                                BBAS3: Lucros menores e dividendos reduzidos geram dúvidas sobre manter ações do Banco do Brasil.
+                            </p>
+                        </div>
                     </div>
+                </div>
+            </section>
+            <div class="divider">
+                <hr>
+            </div>
+
+            <section class="wrapper-news-cards">
+
+                <div class="news-cards">
+                    <article class="news-card">
+                        <img src="img/alexandre.webp" alt="">
+                        <div class="content-news-card star">
+                            <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
+                            <span>15 de Agosto de 2025</span>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="img/btlg11.webp" alt="">
+                        <div class="content-news-card">
+                            <h3>BTLG11 anuncia novo pagamento de dividendos; veja o valor</h3>
+                            <span>15 de Agosto de 2025</span>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="img/alexandre.webp" alt="">
+                        <div class="content-news-card star">
+                            <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
+                            <span>15 de Agosto de 2025</span>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="img/renda-fixa.webp" alt="">
+                        <div class="content-news-card end">
+                            <h3>Renda Fixa no Brasil: Alta Rentabilidade e Mais Investidores em Ago/2025</h3>
+                            <span>15 de Agosto de 2025</span>
+                        </div>
+                    </article>
                 </div>
             </section>
         </main>
