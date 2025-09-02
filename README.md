@@ -51,20 +51,19 @@ O projeto apresenta um layout moderno com foco no mercado financeiro brasileiro,
 **Tipo de Conteúdo:** Simulações de cenários financeiros  
 **Fonte:** Textos gerados por ChatGPT para fins educacionais
 
-## 📸 Inserção de Imagens - Textos Explicativos
+## 📸 Imagens do Portal de Noticias Capital Hoje
 
-### 1. Captura de Tela (49).png
-**Localização:** Seção de Destaque Principal  
-**Texto Explicativo:** Esta imagem representa o cabeçalho do portal com a notícia principal em destaque. Mostra o título "Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026" seguido de um resumo do conteúdo. Abaixo, há uma seção "Outras Notícias" com dois destaques secundários. A imagem demonstra a hierarquia visual do portal, com clara distinção entre a matéria principal e as secundárias, usando tamanhos de fonte e espaçamentos diferenciados para guiar o leitor.
+**Seção de Destaque Principal**
+<img width="1605" height="909" alt="Captura de Tela (49)" src="https://github.com/user-attachments/assets/7852a486-ad2f-4bfe-aafa-7923f2be8ffd" />
+- Esta imagem representa o cabeçalho do portal com a notícia principal em destaque.
 
-### 2. Captura de Tela (50).png
-**Localização:** Barra Lateral ou Rodapé  
-**Texto Explicativo:** Esta imagem apresenta um layout com múltiplas notícias organizadas em blocos. No topo, há um destaque para a ação BBAS3 do Banco do Brasil, seguido por outras quatro manchetes sobre diversos temas econômicos. Na parte inferior, há uma seção com quatro notícias datadas de 15 de agosto de 2025, mostrando uma organização cronológica. O rodapé contém informações de copyright. Esta imagem ilustra como conteúdos diversos podem ser organizados de forma harmoniosa em um portal de notícias.
+**Barra Lateral ou Rodapé**
+<img width="1598" height="915" alt="Captura de Tela (50)" src="https://github.com/user-attachments/assets/21a261a5-861c-43bb-aec3-97a1d46fa095" />
+- Esta imagem apresenta um layout com múltiplas notícias organizadas em blocos. O rodapé contém informações de copyright. Esta imagem ilustra como conteúdos diversos podem ser organizados de forma harmoniosa em um portal de notícias.
 
-### 3. Captura de Tela (51).png
-**Localização:** Página de Notícia Individual  
-**Texto Explicativo:** Esta imagem mostra uma notícia completa sobre Fundos de Investimento Imobiliário (FIIs). Inclui o título principal, data de publicação, autora (Maria Silva) e o conteúdo inicial da matéria com dados específicos sobre P/VP (Preço sobre Valor Patrimonial) e percentuais de desconto. A imagem demonstra a formatação adequada para uma página de artigo completo, com uso de negrito para destacar informações numéricas importantes e uma estrutura clara de parágrafos para facilitar a leitura.
-
+**Página de Notícia Individual**
+<img width="1587" height="910" alt="Captura de Tela (51)" src="https://github.com/user-attachments/assets/aa974dc8-125c-408b-9211-1c875edb6765" />
+- Esta imagem mostra uma notícia completa sobre Fundos de Investimento Imobiliário (FIIs).
 ## 👨‍💻 Desenvolvimento
 
 **Desenvolvedor:** Cristhian  
