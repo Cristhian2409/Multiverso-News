@@ -51,15 +51,18 @@ O projeto apresenta um layout moderno com foco no mercado financeiro brasileiro,
 **Tipo de Conteúdo:** Simulações de cenários financeiros  
 **Fonte:** Textos gerados por ChatGPT para fins educacionais
 
+
 ## 📸 Imagens do Portal de Noticias Capital Hoje
 
 **Seção de Destaque Principal**
 <img width="1605" height="909" alt="Captura de Tela (49)" src="https://github.com/user-attachments/assets/7852a486-ad2f-4bfe-aafa-7923f2be8ffd" />
 - Esta imagem representa o cabeçalho do portal com a notícia principal em destaque.
 
+
 **Barra Lateral ou Rodapé**
 <img width="1598" height="915" alt="Captura de Tela (50)" src="https://github.com/user-attachments/assets/21a261a5-861c-43bb-aec3-97a1d46fa095" />
 - Esta imagem apresenta um layout com múltiplas notícias organizadas em blocos. O rodapé contém informações de copyright. Esta imagem ilustra como conteúdos diversos podem ser organizados de forma harmoniosa em um portal de notícias.
+
 
 **Página de Notícia Individual**
 <img width="1587" height="910" alt="Captura de Tela (51)" src="https://github.com/user-attachments/assets/aa974dc8-125c-408b-9211-1c875edb6765" />
