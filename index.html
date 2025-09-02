@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Link pra Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+
     <title>Capital Hoje</title> 
 </head>
 <body>
     <div class="wrapper wrapper_header">
-        <header>
-            <div class="logo">
+        <header class="header">
+            <div href="index.html" class="logo">
                 <img src="img/logo.png" alt="Logo do site" />
             </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#home">Renda Fixa</a></li>
-                    <li><a href="#about">Renda Variável</a></li> 
-                    <li><a href="#calculos">Calculadora</a></li>
-                    <li><a href="#contact">Contato</a></li> 
-                </ul>
-            </nav>
+            <div class="search-user">
+                <form class="form-search">
+                    <input type="text" placeholder="Pesquisar..." class="input-search"/>
+                    <ion-icon name="search" class="icon_search"></ion-icon>
+                </form>
+                <ion-icon name="person-circle" class="icon_login"></ion-icon>
+            </div>
         </header>
     </div>
 
@@ -34,8 +33,8 @@
             <section id="wrapper-news-principal">
                 <span class="topicos">Destaque</span>
                 <div id="main-news">
-                    <div id="container-news-principal">
-                        <img src="img/fiis.webp" alt="">
+                    <a href="news/noticia1.html" id="container-news-principal">
+                        <img src="img/fiis.webp" alt="Crescimento urbano e mercado imobiliário.">
                         <div class="content-news-principal">
                             <h1>
                                 Oportunidade histórica: FIIs de tijolo com descontos de até 17% oferecem potencial de valorização antes de 2026
@@ -44,24 +43,24 @@
                                 Investidores atentos encontram nos fundos imobiliários de tijolo uma chance única de adquirir ativos descontados, com projeções de valorização e maior atratividade no médio prazo.
                             </p>
                         </div>
-                    </div>
+                    </a>
                     <div id="container-news-secondary">
-                        <div class="news-top">
-                            <img src="img/banco1.webp" alt="">
+                        <a href="news/noticia2.html" class="news-top">
+                            <img src="img/juros.jpg" alt="Imagem de análise financeira com calculadora e relatórios.">
                             <div class="content-secondary-news content-one">
                                 <h2>
                                     Juros altos e inadimplência elevam risco no crédito ao consumidor — atenção redobrada para famílias e bancos
                                 </h2>
                             </div>
-                        </div>
-                        <div class="news-top">
-                            <img src="img/banco1.webp" alt="">
+                        </a>
+                        <a href="news/noticia3.html" class="news-top">
+                            <img src="img/merc_estrangeiro.jpg" alt="Gráfico de desempenho em alta.">
                             <div class="content-secondary-news content-two">
                                 <h2>
-                                    Mercado Financeiro Brasileiro Atrai Investimentos Estrangeiros, Mesmo com Desafios. Desenrole mais está noticia
+                                    Mercado Financeiro Brasileiro Atrai Investimentos Estrangeiros, Mesmo com Desafios.
                                 </h2>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -70,8 +69,19 @@
                     <span class="topicos">Outras Notícias</span>
                 </div>
                 <div class="other-news-container">
-                    <div class="other-news-top">
+                    <a href="news/noticia4.html" class="other-news-top">
                         <img src="img/banco2.webp" alt="">
+                        <div class="other-news-content">
+                            <h2>
+                                Investidores divididos: ainda compensa apostar na BBAS3?
+                            </h2>
+                            <p>
+                                BBAS3: Lucros menores e dividendos reduzidos geram dúvidas sobre manter ações do Banco do Brasil.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="other-news-top">
+                        <img src="img/dino.webp" alt="">
                         <div class="other-news-content">
                             <h2>
                                 Bancos Brasileiros Enfrentam Dilema Jurídico com Sanções dos EUA a Moraes
@@ -80,40 +90,28 @@
                                 Sanções a Moraes: Bancos divididos entre sanções dos EUA e decisões do STF.                            
                             </p>
                         </div>
-                    </div>
-                    <div class="other-news-top">
-                        <img src="img/banco2.webp" alt="">
+                    </a>
+                    <a href="#" class="other-news-top">
+                        <img src="img/energia_renovavel.webp" alt="Energia renovável: solar e eólica.">
                         <div class="other-news-content">
                             <h2>
-                                Bancos Brasileiros Enfrentam Dilema Jurídico com Sanções dos EUA a Moraes
-                            </h2>
+                                Energia renovável no Brasil atrai recorde de investimentos em 2025</h2>
                             <p>
-                                Sanções a Moraes: Bancos divididos entre sanções dos EUA e decisões do STF.
+                                Setor de energia limpa no Brasil registra recorde de investimentos em 2025, com destaque para solar e eólica.
                             </p>
                         </div>
-                    </div>
-                    <div class="other-news-top">
-                        <img src="img/banco2.webp" alt="">
+                    </a>
+                    <a href="#" class="other-news-top">
+                        <img src="img/construcao.jpg" alt="Trabalhadores na construção civil.">
                         <div class="other-news-content">
                             <h2>
-                                Investidores divididos: ainda compensa apostar na BBAS3?
+                                Construção Civil cresce com demanda por imóveis
                             </h2>
                             <p>
-                                BBAS3: Lucros menores e dividendos reduzidos geram dúvidas sobre manter ações do Banco do Brasil.
+                                Construção civil no Brasil cresce em 2025, com alta demanda por imóveis residenciais e comerciais.
                             </p>
                         </div>
-                    </div>
-                    <div class="other-news-top">
-                        <img src="img/banco2.webp" alt="">
-                        <div class="other-news-content">
-                            <h2>
-                                Investidores divididos: ainda compensa apostar na BBAS3?
-                            </h2>
-                            <p>
-                                BBAS3: Lucros menores e dividendos reduzidos geram dúvidas sobre manter ações do Banco do Brasil.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </section>
             <div class="divider">
@@ -123,34 +121,34 @@
             <section class="wrapper-news-cards">
 
                 <div class="news-cards">
-                    <article class="news-card">
-                        <img src="img/alexandre.webp" alt="">
+                    <a href="news/noticia5.html" class="news-card">
+                        <img src="img/alexandre.jpg" alt="Imagem do Ministro Alexandre de Moraes">
                         <div class="content-news-card star">
                             <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
                             <span>15 de Agosto de 2025</span>
                         </div>
-                    </article>
-                    <article class="news-card">
-                        <img src="img/btlg11.webp" alt="">
+                    </a>
+                    <a href="news/noticia8.html" class="news-card">
+                        <img src="img/btlg11.webp" alt="Notas de real e moedas em destaque.">
                         <div class="content-news-card">
                             <h3>BTLG11 anuncia novo pagamento de dividendos; veja o valor</h3>
                             <span>15 de Agosto de 2025</span>
                         </div>
                     </article>
-                    <article class="news-card">
-                        <img src="img/alexandre.webp" alt="">
+                    <a href="news/noticia7.html" class="news-card">
+                        <img src="img/fiis_oportunidade.jpg" alt="Logística e distribuição de mercadorias.">
                         <div class="content-news-card star">
-                            <h3>STF Restabelece Aumento do IOF: Impactos para Investidores e Setores Econômicos</h3>
+                            <h3>FIIs com Desconto: Oportunidades no Mercado Imobiliário em Agosto de 2025</h3>
                             <span>15 de Agosto de 2025</span>
                         </div>
                     </article>
-                    <article class="news-card">
-                        <img src="img/renda-fixa.webp" alt="">
+                    <a href="news/noticia6.html" class="news-card">
+                        <img src="img/renda-fixa.webp" alt="Valorização dos investimentos.">
                         <div class="content-news-card end">
                             <h3>Renda Fixa no Brasil: Alta Rentabilidade e Mais Investidores em Ago/2025</h3>
                             <span>15 de Agosto de 2025</span>
                         </div>
-                    </article>
+                    </a>
                 </div>
             </section>
         </main>
@@ -158,9 +156,9 @@
     
     <div class="wrapper wrapper_footer">
         <footer>
-            <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Desenvolvido por Cristhian. Todos os direitos reservados.</p>
         </footer>
     </div>
-    
-</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
